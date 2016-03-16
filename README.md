@@ -1,3 +1,7 @@
+# This is a fork of grunt-html-snapshot
+
+The only difference between this fork and the [parent repository](https://github.com/cburgdorf/grunt-html-snapshot) by cburgdorf is this version has an up-to-date phantomjs-prebuilt dependency, and the bridge script uses the new "system.args" way of getting to phantomjs's command line arguments. It is just a compatibility release, and works as a drop-in replacement for minimal hassle.
+
 # grunt-html-snapshot
 
 > Makes it easy to provide html snapshots for client side applications so that they can be indexed by web crawlers
